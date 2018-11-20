@@ -1,0 +1,5 @@
+numero1 = int(input('Primeiro numero: '))
+numero2 = int(input('Segundo numero: '))
+soma = int(numero1 + numero2)
+print('o resultado da soma entre {} e {} é: {}' .format(numero1, numero2, soma))
+print(type(numero1))
