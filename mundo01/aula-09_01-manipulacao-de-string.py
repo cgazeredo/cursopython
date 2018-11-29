@@ -16,6 +16,10 @@ print('curso' in frase)   # retorna true ou false pra existencia da string busca
 print(frase.replace('Python', 'Android'))  #troca python por android na string, mas nao edita a string, cri um nova para esse uso
 print(frase.upper())
 print(frase.lower())
-print(frase.capitalize())  #primeira letra da string maiuscula
-print(frase.title())  #todas as primeiras letras de cada palavrax
+print(frase.capitalize())  # primeira letra da string maiuscula
+print(frase.title())  # todas as primeiras letras de cada palavrax
+t = frase.split()  # cria uma lista com todas as palavras da string, divide onde hacaracteres de divisao. Default: Espaco
+print('-'.join(t))   # junta strings
 
+
+                      
