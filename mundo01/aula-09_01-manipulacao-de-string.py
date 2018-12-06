@@ -13,13 +13,10 @@ print(frase.count('o', 0, 13)) # conta quantas vezes encontra caracter 'o' entre
 print(frase.find('deo'))  # aponta onde a sequencia buscada iniciou
 print(frase.find('Android'))
 print('curso' in frase)   # retorna true ou false pra existencia da string buscada
-print(frase.replace('Python', 'Android'))  #troca python por android na string, mas nao edita a string, cri um nova para esse uso
+print(frase.replace('Python', 'Android'))  # troca python por android na string, mas nao edita a string, cri um nova para esse uso
 print(frase.upper())
 print(frase.lower())
 print(frase.capitalize())  # primeira letra da string maiuscula
 print(frase.title())  # todas as primeiras letras de cada palavrax
 t = frase.split()  # cria uma lista com todas as palavras da string, divide onde hacaracteres de divisao. Default: Espaco
 print('-'.join(t))   # junta strings
-
-
-                      
