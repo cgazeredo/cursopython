@@ -3,7 +3,7 @@ from datetime import date
 ano = int(input('Entre com o ano de nascimento do atleta: '))
 
 idade = date.today().year - ano
-
+print('O atleta tem {} anos.'.format(idade))
 if idade <= 9:
     print('A categoria do atleta é mirim.')
 elif 9 < idade <= 14:
