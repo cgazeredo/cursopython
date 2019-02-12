@@ -8,7 +8,7 @@ if abs(b-c) < a < abs(b+c):
             #  se as retas formam um triangulo, dizer que dipo de triangulo é
             if a == b == c:
                 print('As retas formam um triangulo equilátero. ')
-            elif (a==b and a != c) or (a==c and a != b) or (b==c and b != a):
+            elif (a == b and a != c) or (a==c and a != b) or (b==c and b != a):
                 print('As retas formam um triangulo isoceles')
             else:
                 print('As retas formam um triangulo escaleno.')
